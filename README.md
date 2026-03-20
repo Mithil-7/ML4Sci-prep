@@ -18,6 +18,11 @@ This pipeline is built using **PyTorch** and is optimized for High-Energy Physic
 3. Install the required interpretability dependencies: `pip install torch torchvision shap scikit-learn`
 4. Run all cells. The script will automatically generate synthetic 2D shower data, train the classifier, and output the SHAP interpretability grids.
 
+## Repository Contents
+This repository contains two primary Jupyter Notebooks:
+1. `testprojectml4sci.ipynb`: My official submission for the ML4SCI GSoC 2026 Evaluation Test. It processes the standard QG_jets dataset, boosting constituents to the rest frame and classifying them using a PyTorch DNN and XGBoost, evaluated via ROC-AUC and SHAP.
+2. `Synthetic_particle_shower_classifier-ML4sci.ipynb`: An additional Proof of Concept linked in my project proposal. It demonstrates an End-to-End (E2E) pipeline using a Convolutional Neural Network (CNN) to classify 2D topological energy distributions, proving my ability to handle raw, multi-dimensional detector arrays.
+
 ## About the Author
 **Mithilesh A** Software Developer specializing in Deep Learning, complex systems architecture, and physics-informed neural networks. 
 * **GitHub:** [https://github.com/Mithil-7](https://github.com/Mithil-7)
